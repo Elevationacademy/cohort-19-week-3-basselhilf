@@ -59,35 +59,35 @@
     
 // }
     //Form
-    // const checkform = function(){
-    // let  name = document.getElementById("name").value;
-    // let  salary = document.getElementById("salary").value;
-    // let  birthday = document.getElementById("birthday").value;
-    // let phone = document.getElementById("phone").value;
-    // if(name.length<2){
-    //     const message = document.createElement("h2")
-    //     message.innerHTML = "Name is missing"
-    //     message.style.color="red"
-    //     myForm.appendChild(message)
-    // }
-    // else if(salary<10000 || salary>16000 || salary.length == 0){
-    //     const message = document.createElement("h2")
-    //     message.innerHTML = "The salary must be greater than 10,000 but less than 16,000"
-    //     message.style.color="red"
-    //     myForm.appendChild(message)  
-    // }
-    // else if(birthday==0){
-    //     const message = document.createElement("h2")
-    //     message.innerHTML = "enter you birthday"
-    //     message.style.color="red"
-    //     myForm.appendChild(message)
-    // }
-    // else if(phone==0){
-    //     const message = document.createElement("h2")
-    //     message.innerHTML = "enter your phone number"
-    //     message.style.color="red"
-    //     message.setAttribute("class",)
-    //     myForm.appendChild(message)   
-    // }
-    // else alert ("welcome !")
-    // }
+    const checkform = function(){
+    let  name = document.getElementById("name").value;
+    let  salary = document.getElementById("salary").value;
+    let  birthday = document.getElementById("birthday").value;
+    let phone = document.getElementById("phone").value;
+    if(name.length<2){
+        const message = document.createElement("h2")
+        message.innerHTML = "Name is missing"
+        message.style.color="red"
+        myForm.appendChild(message)
+    }
+    else if(salary<10000 || salary>16000 || salary.length == 0){
+        const message = document.createElement("h2")
+        message.innerHTML = "The salary must be greater than 10,000 but less than 16,000"
+        message.style.color="red"
+        myForm.appendChild(message)  
+    }
+    else if(birthday==0){
+        const message = document.createElement("h2")
+        message.innerHTML = "enter you birthday"
+        message.style.color="red"
+        myForm.appendChild(message)
+    }
+    else if(phone==0){
+        const message = document.createElement("h2")
+        message.innerHTML = "enter your phone number"
+        message.style.color="red"
+        message.setAttribute("class",)
+        myForm.appendChild(message)   
+    }
+    else alert ("welcome !")
+    }

@@ -1,0 +1,86 @@
+/* Chat */
+/* #chat{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 15fr 1fr;
+    grid-template-areas: 
+    "f c"
+    "f i";
+}
+
+.left{
+    background-color:grey;
+    justify-self: start;
+    align-self: start;
+    margin: 15px;  
+}
+
+.right{
+    background-color:rgb(10, 179, 10);
+    margin: 15px;
+    justify-self: end;
+    align-self: end;
+}
+
+#friends p {
+    background-color: rgb(116, 6, 116);
+    padding:5px;
+}
+
+#friends{
+    background-color:rgb(163, 8, 163);
+    grid-area: f;
+    display: grid;
+    align-items: center;
+    padding:10px;
+}
+
+#chatbox{
+    grid-area: c;
+    display: grid;
+    background-color:rgb(212, 212, 212); 
+}
+.text-container{
+    display: grid;
+    grid-template-areas:"a b";
+    grid-gap:5px;
+}
+
+#input{
+    grid-area: i;
+    display: grid;
+    background-color:rgb(163, 8, 163);
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "text text text text text text button"
+    "text text text text text text button"
+    "text text text text text text button";
+}
+
+.time{
+    font-size: 14px;
+    align-self: end;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bolder;
+}
+
+.text{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 24px;
+    font-weight: bolder;
+}
+#input input{
+    display: grid;
+    grid-area: text;
+}
+#input div{
+    color:white;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+} */
+
+
+
