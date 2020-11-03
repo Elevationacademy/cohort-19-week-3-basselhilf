@@ -1,5 +1,5 @@
 /* Chat */
-/* #chat{
+ #chat{
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 4fr;
@@ -80,7 +80,7 @@
     display: grid;
     align-content: center;
     justify-content: center;
-} */
+} 
 
 
 
