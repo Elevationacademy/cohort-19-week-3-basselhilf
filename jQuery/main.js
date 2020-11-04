@@ -1,14 +1,14 @@
-//ex-1
-$("#btn").on("click",function(){
-    const name = $("#humanName").val()
-    $("#addPerson").append(`<li class=pName>${name}</li>`)
-    $('input').val(' ')
-})
+// //ex-1
+// $("#btn").on("click",function(){
+//     const name = $("#humanName").val()
+//     $("#addPerson").append(`<li class=pName>${name}</li>`)
+//     $('input').val(' ')
+// })
 
-//  //ex-2
-  $("#addPerson").on("click", ".pName", function(){
-    $(this).remove(".pName") 
-  })
+// //  //ex-2
+//   $("#addPerson").on("click", ".pName", function(){
+//     $(this).remove(".pName") 
+//   })
 
 
 //ex-3
